@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take-Home Calculator</title>
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <body>
+        <div class="container">
+          <!-- Nav Bar -->
+          <div class="nav">
+            <div class="leftnav">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="rightnav">
+              <a href="calculator.html">Take-Home Calculator</a>
+              <a href="vacancies.html">Vacancies</a>
+            </div>
+          </div>
+
+          <!-- Middle Section -->
+          <div class="midsection">
+            
+            <!-- Left Section -->
+            <div class="leftinfo">
+                <h2>Take-Home Pay Calculator</h2>
+                <p>
+                    Welcome to the Take-Home Pay Calculator! This tool allows you to quickly estimate your monthly income after taxes, deductions, and other contributions, giving you a clear picture of how much you'll actually take home.
+                </p>
+                
+                <p>
+                    To use the calculator, simply enter your gross income (the amount you earn before taxes and deductions), and the tool will automatically calculate your net income. You can adjust the sliders or input values for various deductions, such as taxes, pension contributions, student loans, and other relevant factors.
+                </p>
+                
+                <p>
+                    Once you've entered your details, click "Calculate" to see an estimate of your take-home pay. This estimate is based on current tax rates and regulations, helping you plan your budget more effectively.
+                </p>
+            
+                <p>
+                    Whether you're budgeting for monthly expenses, saving for the future, or just curious about how much you’ll bring home, this tool is here to help you make informed financial decisions.
+                </p>
+            
+                <h3>How to Use the Calculator:</h3>
+                <ul>
+                    <li>Enter your gross monthly income in the provided field.</li>
+                    <li>Adjust the sliders for deductions like taxes, pension, and other contributions.</li>
+                    <li>Click "Calculate" to instantly see your estimated take-home pay.</li>
+                    <li>Review the breakdown of your deductions and net income.</li>
+                </ul>
+            </div>
+
+             <!-- Right Section -->
+              <div class="rightinfo">
+                <form class="calc" action="" method="get">Take Home Calculator
+
+                    <label for="job">Job Title:</label>
+                    <input type="text" name="user_job" id="job">
+
+                    <label for="gross">Gross Pay:</label>
+                    <input type="number" name="user_gross" id="gross">
+
+                    <label for="timeframe">Pay Timeframe:</label>
+                    <select name="user_timeframe" id="timeframe">
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+
+                    <label for="hours">Hours per week:</label>
+                    <input type="number" name="user_hours" id="hours">
+
+                    <label for="tax">Tax Rate:</label>
+                    <input type="number" name="user_tax" id="tax">
+
+                    <label for="nirate">NI Rate:</label>
+                    <input type="number" name="user_ni" id="nirate">
+
+                    <div class="buttons">
+                        <button class="submit" type="submit">Submit</button>
+                        <button class="reset" type="reset">Reset</button>
+                    </div>
+                </form>
+
+              </div>
+                
+
+
+            </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>Adam's Careers TM</div>
+          </div>
+
+  </body>
+</html>
