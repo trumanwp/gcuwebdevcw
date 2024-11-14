@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto", serif;
+    color: #D1CCDC;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+a {
+    text-decoration: none;
+    color: #F5EDF0;
+}
+
+/* Navigation Bar */
+
+.nav {
+    display: flex;
+    background-color: #424C55;
+    border-bottom: 6px solid #D1CCDC;
+    padding: 16px;
+    height: 5%;
+    font-weight: bold;
+    
+}
+
+.leftnav {
+    padding: 8px;
+}
+
+.rightnav {
+    display: flex;
+    margin-left: auto;
+    gap: 12px;
+    padding: 8px;
+}
+
+
+/* Information Midsection */
+
+.midsection {
+    display: flex;
+    background-color: #424C55;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    flex-wrap: wrap;
+    flex: 1;
+    /* border: 2px solid red; */
+}
+
+.info {
+    /* border: 2px solid red; */
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    max-width: 50%;  /* Allow for resizing */ 
+    min-width: 20%;
+    flex-shrink: 1;  
+    margin-top: 18px;
+    /* margin-left: 10px; */
+    padding: 16px;
+    text-align: center;
+}
+
+.image {
+    /* border: 2px solid red; */
+    display: flex;
+    height: auto;
+    max-width: 40%;
+    width: 100%;
+    flex-shrink: 1;
+    /* margin-right: 10px; */
+    margin-top: 18px;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    background-color: #D1CCDC;
+    min-height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #424C55;
+    
+}
