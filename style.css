@@ -131,6 +131,7 @@ a {
     border: 2px solid #D1CCDC;
     border-radius: 2em;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 label {
@@ -141,6 +142,22 @@ input {
     background-color: #424C55;
     border: 2px solid #D1CCDC;
     color: #D1CCDC ;
+}
+
+input:user-invalid{
+    color: red;
+}
+
+#calcresult {
+    background-color: #424C55;
+    border: 2px solid #D1CCDC;
+    color: #D1CCDC ;
+    padding: 8px;
+    display: none;
+}
+
+.resultsection {
+    padding-top: 8px;
 }
 
 select{
@@ -204,6 +221,13 @@ button {
         border: 2px solid #D1CCDC;
         border-radius: .5em;
         margin-top: 1em;
-        min-height: 10vh;
+        min-height: 15vh;
    }
 
+.vacancy a {
+        background-color: #424C55;
+        border: 2px solid #D1CCDC;
+        color: #D1CCDC ;
+        padding: .5em;
+        font-size: 14px;
+    }

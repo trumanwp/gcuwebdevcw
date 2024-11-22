@@ -70,6 +70,7 @@
 
                     <label for="timeframe">Pay Timeframe:</label>
                     <select name="user_timeframe" id="timeframe">
+                        <option value="hourly">Hourly</option>
                         <option value="weekly">Weekly</option>
                         <option value="monthly">Monthly</option>
                         <option value="yearly">Yearly</option>
@@ -83,6 +84,14 @@
 
                     <label for="nirate">NI Rate:</label>
                     <input type="number" name="user_ni" id="nirate">
+
+                    <div class="resultsection">
+                      <label for="result">Result: </label>
+                    <div id="calcresult">
+                      
+                    </div>
+                    </div>
+                    
 
                     <div class="buttons">
                         <button class="submit" type="submit">Submit</button>
