@@ -1,7 +1,9 @@
 function fetchAndDisplayData() {
+  // Defining api for job search
     const apiUrl = 'https://api.lmiforall.org.uk/api/v1/vacancies/search';
     const resultsContainer = document.getElementById("jobscontainer");
 
+    // Fetching api
     fetch(apiUrl)
         .then(response => {
             if (!response.ok) {
@@ -78,11 +80,6 @@ function fetchAndDisplayData() {
 
 // Call the function to fetch and display data
 fetchAndDisplayData();
-
-
- // want a new function that upon entering an input into the search bar, 
-// queries the new api for results, then displays the top 10 results for jobs
-//  with the keywords
 
 // JavaScript file for the Vacancies Page
 

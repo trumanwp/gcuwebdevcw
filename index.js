@@ -1,5 +1,6 @@
 //calculator
 
+// Initialising all variables for use
 let job;
 let gross;
 let timeframe;
@@ -19,6 +20,7 @@ let time;
 let resultbox = document.getElementById('calcresult');
 const submitButton = document.querySelector(".submit");
 
+// Code for calculator starting on submit of form
 submitButton.onclick = function(e){
     e.preventDefault();
 
@@ -41,6 +43,7 @@ submitButton.onclick = function(e){
 
     console.log(resultbox);
 
+    // Calculations based on user input
     taxdeduct = gross * (tax/100);
     nideduct = gross * (nirate/100);
     takehome = gross - taxdeduct - nideduct;
@@ -72,7 +75,7 @@ submitButton.onclick = function(e){
     }
 
 
-    
+    // Saving timebased results to variables, to 2 decimal place
     hourly = hourly.toFixed(2);
     weekly = weekly.toFixed(2);
     monthly = monthly.toFixed(2);
